@@ -29,7 +29,7 @@ export default function Main() {
             <section className='about-section lg:flex md:justify-between md:items-center lg:mt-[40px]'>
                 <div className="left-about lg:w-2/3">
                     <h2 className='text-[20px] font-[600] text-[#F2F2F2] mt-[20px]'>
-                        We are passionate about creating visually stunning and functional solutions that communicate effectively. I have a keen eye for detail and a deep understanding of design principles, which I use to deliver projects that exceed my clients' expectations.
+                        We are passionate about creating visually stunning and functional solutions that communicate effectively. I have a keen eye for detail and a deep understanding of design principles, which I use to deliver projects that exceed my clients&apos; expectations.
                     </h2>
                 </div>
                 <div className="right-about grid grid-cols-2 mt-[20px] gap-y-3 lg:gap-x-[30px]">
@@ -58,7 +58,7 @@ export default function Main() {
                     </Link>
                 </div>
             </section>
-            <ServiceWork/>
+            <ServiceWork />
             <section className='team'>
                 <div className="team-starter service-starter flex gap-2 items-center mt-[40px] mb-[20px]">
                     <Image src={arrow_right} alt='arrow right icon' />
@@ -70,7 +70,7 @@ export default function Main() {
                     <h1 className='text-[32px] font-[600] mb-[20px] leading-none md:col-span-2'>We are passionate about creating visually stunning and functional solutions that communicate effectively.</h1>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_one} alt='worker' className='w-full h-[300px] rounded-t-2xl md:w-'/>
+                            <Image src={member_one} alt='worker' className='w-full h-[300px] rounded-t-2xl md:w-' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
