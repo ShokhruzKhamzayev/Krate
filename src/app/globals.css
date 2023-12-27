@@ -22,6 +22,10 @@ html {
   margin: 0px auto;
 }
 
+.top-footer {
+  background-image: url('../assets/main-content.png');
+}
+
 @media screen and (min-width: 768px) {
   .custom-container {
     max-width: 650px;

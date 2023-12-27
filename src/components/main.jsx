@@ -66,11 +66,11 @@ export default function Main() {
                         Our Works
                     </h3>
                 </div>
-                <div className="team-container grid grid-cols-1 gap-y-5 md:grid-cols-3 lg:grid-cols-4">
+                <div className="team-container grid grid-cols-1 gap-y-5 md:grid-cols-3 lg:grid-cols-4 md:gap-x-5">
                     <h1 className='text-[32px] font-[600] mb-[20px] leading-none md:col-span-2'>We are passionate about creating visually stunning and functional solutions that communicate effectively.</h1>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_one} alt='worker' className='w-full h-[300px] rounded-t-2xl md:w-' />
+                            <Image src={member_one} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]'/>
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
@@ -79,7 +79,7 @@ export default function Main() {
                     </div>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_two} alt='worker' className='w-full h-[300px] rounded-t-2xl' />
+                            <Image src={member_two} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
@@ -88,7 +88,7 @@ export default function Main() {
                     </div>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_three} alt='worker' className='w-full h-[300px] rounded-t-2xl' />
+                            <Image src={member_three} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
@@ -97,7 +97,7 @@ export default function Main() {
                     </div>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_four} alt='worker' className='w-full h-[300px] rounded-t-2xl' />
+                            <Image src={member_four} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
@@ -106,7 +106,7 @@ export default function Main() {
                     </div>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_five} alt='worker' className='w-full h-[300px] rounded-t-2xl' />
+                            <Image src={member_five} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
@@ -115,7 +115,7 @@ export default function Main() {
                     </div>
                     <div className="team-member border border-[#282828] rounded-2xl">
                         <div className="img-member">
-                            <Image src={member_six} alt='worker' className='w-full h-[300px] rounded-t-2xl' />
+                            <Image src={member_six} alt='worker' className='w-full h-[300px] rounded-t-2xl md:h-[250px]' />
                         </div>
                         <div className="info-member pl-3 py-3">
                             <h2 className='text-[18px] font-[600]'>Jocelyn Schleifer</h2>
