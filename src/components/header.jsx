@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import logo from '../assets/Branding.png'
+import pencil from '../assets/dit.svg'
+import calendar from '../assets/calendar.svg'
+import bars from '../assets/Hamburger.svg'
 
 export default function Header() {
     return (
         <header className='flex justify-between items-center my-3 border-2 border-[#282828] rounded-xl'>
             <div className="logo border-r border-[#282828] px-[16px] py-[10px] md:w-1/5 md:px-0 md:flex md:justify-center md:items-center">
                 <Link href={'/'}>
-                    <Image src={require('../assets/Branding.png')} alt='logo company' />
+                    <Image src={logo} alt='logo company' />
                 </Link>
             </div>
             <div className="nav-panel md:w-4/5 md:flex md:flex-col">
@@ -19,15 +23,15 @@ export default function Header() {
                         <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Contact</Link>
                     </nav>
                     <button className='px-[16px] py-[10px] md:border-l border-[#282828] md:w-1/5 md:flex md:justify-center md:items-center'>
-                        <Image src={require('../assets/Hamburger.svg')} alt='menu icon' />
+                        <Image src={bars} alt='menu icon' />
                     </button>
                 </div>
                 <div className="bottom-panel hidden md:flex md:justify-between md:items-center md:border-t border-[#282828] py-3">
                     <Link className='w-1/2 text-center border-r border-[#282828] flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/'}>
-                        <Image src={require('../assets/dit.svg')} alt='icons'/>
+                        <Image src={pencil} alt='icons'/>
                         Blog</Link>
                     <Link className='w-1/2 text-center flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/'}>
-                        <Image src={require('../assets/calendar.svg')} alt='icons'/>
+                        <Image src={calendar} alt='icons'/>
                         Get in touch</Link>
                 </div>
             </div>
