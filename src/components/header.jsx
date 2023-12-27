@@ -21,7 +21,7 @@ export default async function Header() {
                 <div className="top-panel flex justify-between">
                     <nav className='hidden w-4/5 md:flex md:justify-center gap-5 py-3'>
                         <Link href={'/projects'} className='text-[14px] text-[#BDBDBD]'>Projects</Link>
-                        <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>About</Link>
+                        <Link href={'/about'} className='text-[14px] text-[#BDBDBD]'>About</Link>
                         <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Team</Link>
                         <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Contact</Link>
                     </nav>

@@ -13,8 +13,8 @@ export default function Footer() {
     return (
         <footer>
             <div className='top-footer py-[80px] px-[20px] mt-[40px] rounded-xl'>
-                <h1 className='text-[42px] font-[600] text-center'>Have an idea? Let&apos;s talk.</h1>
-                <p className='text-[18px] text-neutral-200 text-center mt-[16px]'>Visually attractive design from concept to final result. We create solutions that are bold and forward-looking.</p>
+                <h1 className='text-[42px] font-[600] text-center max-w-[400px] mx-auto md:text-[59px]'>Have an idea? Let&apos;s talk.</h1>
+                <p className='text-[18px] text-neutral-200 text-center mt-[16px] max-w-[530px] mx-auto'>Visually attractive design from concept to final result. We create solutions that are bold and forward-looking.</p>
                 <Link href={'/'} className='flex justify-center items-center gap-[8px] bg-white max-w-[230px] mx-auto py-[12px] px-[24px] rounded-xl mt-[32px]'>
                     <Image src={calendar} alt='calendar icon' />
                     <h4 className='text-[#282828] text-[16px] font-[600]'>Free Consultation</h4>
@@ -31,7 +31,7 @@ export default function Footer() {
                     <div className="top-panel flex items-center md:border-b border-[#282828] flex-col-reverse md:flex-row">
                         <nav className='flex md:w-1/2 gap-[16px] justify-center items-center py-[16px]'>
                             <Link href={'/projects'} className='text-[14px] font-[600] '>Projects</Link>
-                            <Link href={'/'} className='text-[14px] font-[600] '>About</Link>
+                            <Link href={'/about'} className='text-[14px] font-[600] '>About</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>Team</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>Contact</Link>
                         </nav>
