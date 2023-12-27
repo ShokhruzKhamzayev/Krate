@@ -12,7 +12,7 @@ export default async function Header() {
     const isAuth = !!userId
     return (
         <header className='flex justify-between items-center my-3 border-2 border-[#282828] rounded-xl'>
-            <div className="logo border-r border-[#282828] px-[16px] py-[10px] md:w-1/5 md:px-0 md:flex md:justify-center md:items-center">
+            <div className="logo border-r border-[#282828] px-[16px] py-[10px] md:w-1/5 md:px-0 md:flex md:justify-center md:items-center md:py-[30px]">
                 <Link href={'/'}>
                     <Image src={logo} alt='logo company' />
                 </Link>

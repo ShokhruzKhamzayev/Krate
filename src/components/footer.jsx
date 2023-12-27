@@ -12,7 +12,7 @@ import gm from '../assets/mail.svg'
 export default function Footer() {
     return (
         <footer>
-            <div className='top-footer py-[80px] px-[20px] mt-[40px]'>
+            <div className='top-footer py-[80px] px-[20px] mt-[40px] rounded-xl'>
                 <h1 className='text-[42px] font-[600] text-center'>Have an idea? Let&apos;s talk.</h1>
                 <p className='text-[18px] text-neutral-200 text-center mt-[16px]'>Visually attractive design from concept to final result. We create solutions that are bold and forward-looking.</p>
                 <Link href={'/'} className='flex justify-center items-center gap-[8px] bg-white max-w-[230px] mx-auto py-[12px] px-[24px] rounded-xl mt-[32px]'>
@@ -21,7 +21,7 @@ export default function Footer() {
                 </Link>
             </div>
             <div className="bottom-footer border border-[#282828] rounded-xl flex justify-between flex-col md:flex-row items-center mb-[30px] mt-[80px]">
-                <div className="logo md:w-1/5 mx-auto md:border-r border-[#282828] py-10">
+                <div className="logo md:w-1/5 mx-auto md:border-r border-[#282828] py-10 md:py-[50px]">
                     <Link href={'/'} className='flex justify-center items-center gap-3'>
                         <Image src={Logo} alt='our logo' />
                         <h3 className='text-[#BDBDBD] text-[27px]'>Clonify</h3>
@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className="panel-links md:w-4/5">
                     <div className="top-panel flex items-center md:border-b border-[#282828] flex-col-reverse md:flex-row">
                         <nav className='flex md:w-1/2 gap-[16px] justify-center items-center py-[16px]'>
-                            <Link href={'/'} className='text-[14px] font-[600] '>Projects</Link>
+                            <Link href={'/projects'} className='text-[14px] font-[600] '>Projects</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>About</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>Team</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>Contact</Link>
