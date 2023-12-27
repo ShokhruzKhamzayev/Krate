@@ -59,7 +59,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="quote-author">
-                        <p className='text-[20px] font-[600] md:text-[23px] leading-snug my-[32px]'>"I&apos;ve been using Clonify for the past year and I&apos;m absolutely loving it. It&apos;s a powerful design tool that&apos;s easy to use and collaborate with others on. I especially love the real-time collaboration feature, which makes it so easy to get feedback from my team.”</p>
+                        <p className='text-[20px] font-[600] md:text-[23px] leading-snug my-[32px]'>&quot;I&apos;ve been using Clonify for the past year and I&apos;m absolutely loving it. It&apos;s a powerful design tool that&apos;s easy to use and collaborate with others on. I especially love the real-time collaboration feature, which makes it so easy to get feedback from my team.&quot;</p>
                         <div className='flex items-center gap-[5px]'>
                             <Image src={logo_quote} alt='logo'/>
                             <span className='text-[18px]'>Altall</span>
