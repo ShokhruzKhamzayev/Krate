@@ -6,7 +6,10 @@ import member_four from '../assets/team-member-four.png'
 import member_five from '../assets/team-member-five.png'
 import member_six from '../assets/team-member-six.png'
 import arrow_right from '../assets/arrow-right.png'
+import arrow_top_right from '../assets/arrow-up-right.svg'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 
 export default function MembersOfTeam() {
@@ -75,6 +78,10 @@ export default function MembersOfTeam() {
                   </div>
               </div>
           </div>
+          <Link href={'/team'} className='flex justify-center items-center border border-[#282828] py-[14px] rounded-3xl mt-[25px]'>
+            See all members 
+            <Image src={arrow_top_right} alt='icon top right arrow'/>
+          </Link>
       </section>
   )
 }

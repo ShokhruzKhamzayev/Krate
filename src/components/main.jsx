@@ -49,7 +49,6 @@ export default function Main() {
                     </Link>
                     <Link href={'/'} className='flex justify-center items-center'>
                         <Image src={image_sponsor_sixth} alt='photo of sponsor' />
-
                     </Link>
                 </div>
             </section>

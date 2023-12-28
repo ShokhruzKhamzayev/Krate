@@ -16,7 +16,7 @@ export const ContactUs = () => {
                 console.log(error.text);
             });
         };
-        const notify = () => toast.error("Done!");
+        const notify = () => toast.error("Something went wrong!");
     
 
     return (

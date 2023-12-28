@@ -22,7 +22,7 @@ export default async function Header() {
                     <nav className='hidden w-4/5 md:flex md:justify-center gap-5 py-3'>
                         <Link href={'/projects'} className='text-[14px] text-[#BDBDBD]'>Projects</Link>
                         <Link href={'/about'} className='text-[14px] text-[#BDBDBD]'>About</Link>
-                        <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Team</Link>
+                        <Link href={'/team'} className='text-[14px] text-[#BDBDBD]'>Team</Link>
                         <Link href={'/contact'} className='text-[14px] text-[#BDBDBD]'>Contact</Link>
                     </nav>
                     <button className='px-[16px] py-[10px] md:border-l border-[#282828] md:w-1/5 md:flex md:justify-center md:items-center'>
@@ -41,7 +41,7 @@ export default async function Header() {
                     <Link className='w-1/2 text-center border-r border-[#282828] flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/'}>
                         <Image src={pencil} alt='icons'/>
                         Blog</Link>
-                    <Link className='w-1/2 text-center flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/'}>
+                    <Link className='w-1/2 text-center flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/contact'}>
                         <Image src={calendar} alt='icons'/>
                         Get in touch</Link>
                 </div>
