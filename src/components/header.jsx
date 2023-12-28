@@ -38,7 +38,7 @@ export default async function Header() {
                     </button>
                 </div>
                 <div className="bottom-panel hidden md:flex md:justify-between md:items-center md:border-t border-[#282828] py-3">
-                    <Link className='w-1/2 text-center border-r border-[#282828] flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/'}>
+                    <Link className='w-1/2 text-center border-r border-[#282828] flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/blog'}>
                         <Image src={pencil} alt='icons'/>
                         Blog</Link>
                     <Link className='w-1/2 text-center flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/contact'}>

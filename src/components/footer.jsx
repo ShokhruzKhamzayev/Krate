@@ -40,7 +40,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="bottom-panel flex items-center flex-col justify-center md:flex-row">
-                        <Link href={'/'} className='flex justify-center items-center gap-[4px] py-[24px] border-y border-[#282828] md:border-y-0 w-full md:w-1/3'>
+                        <Link href={'/blog'} className='flex justify-center items-center gap-[4px] py-[24px] border-y border-[#282828] md:border-y-0 w-full md:w-1/3'>
                             <Image src={pencil} alt='pencil icon' />
                             <h3>Blog</h3>
                         </Link>
