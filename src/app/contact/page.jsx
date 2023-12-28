@@ -53,7 +53,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <section className='get-in-touch mt-[40px]'>
+            <section className='get-in-touch mt-[40px] max-w-[600px] mx-auto text-center'>
                 <h1 className='text-[30px] font-[600]'>Get in touch</h1>
                 <ContactUs />
             </section>
