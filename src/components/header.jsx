@@ -23,7 +23,7 @@ export default async function Header() {
                         <Link href={'/projects'} className='text-[14px] text-[#BDBDBD]'>Projects</Link>
                         <Link href={'/about'} className='text-[14px] text-[#BDBDBD]'>About</Link>
                         <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Team</Link>
-                        <Link href={'/'} className='text-[14px] text-[#BDBDBD]'>Contact</Link>
+                        <Link href={'/contact'} className='text-[14px] text-[#BDBDBD]'>Contact</Link>
                     </nav>
                     <button className='px-[16px] py-[10px] md:border-l border-[#282828] md:w-1/5 md:flex md:justify-center md:items-center'>
                         {

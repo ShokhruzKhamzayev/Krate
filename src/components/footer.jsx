@@ -33,7 +33,7 @@ export default function Footer() {
                             <Link href={'/projects'} className='text-[14px] font-[600] '>Projects</Link>
                             <Link href={'/about'} className='text-[14px] font-[600] '>About</Link>
                             <Link href={'/'} className='text-[14px] font-[600] '>Team</Link>
-                            <Link href={'/'} className='text-[14px] font-[600] '>Contact</Link>
+                            <Link href={'/contact'} className='text-[14px] font-[600] '>Contact</Link>
                         </nav>
                         <div className="contact-gmail w-full md:w-1/2 flex justify-center items-center md:border-l border-[#282828] border-y md:border-y-0">
                             <a href="#" className='text-[28px] font-[600] py-[16px]'>hello@clonify.io</a>
@@ -46,16 +46,16 @@ export default function Footer() {
                         </Link>
                         <div className="links-tree flex justify-center items-center gap-[16px] py-[16px] border-b md:border-b-0 w-full md:border-x border-[#282828] md:w-1/3">
                             <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
-                                <Image src={fb} alt='facebook'/>
+                                <Image src={fb} alt='facebook' />
                             </a>
                             <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
-                                <Image src={insta} alt='instagram'/>
+                                <Image src={insta} alt='instagram' />
                             </a>
                             <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
-                                <Image src={tw} alt='twitter'/>
+                                <Image src={tw} alt='twitter' />
                             </a>
                             <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
-                                <Image src={gm} alt='gmail'/>
+                                <Image src={gm} alt='gmail' />
                             </a>
                         </div>
                         <h3 className='md:w-1/3 flex justify-center items-center py-[16px] text-[14px] text-[#BDBDBD]'>© 2088 Nayzak Design</h3>
