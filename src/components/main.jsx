@@ -1,6 +1,9 @@
+'use client'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useLayoutEffect, useRef } from 'react'
 import main_content from '../assets/main-content.png'
 import image_sponsor_first from '../assets/about-con-first.png'
 import image_sponsor_second from '../assets/about-con-sec.png'
@@ -12,7 +15,33 @@ import ServiceWork from './serviceAndWork'
 import MembersOfTeam from './memberTeam'
 
 
+gsap.registerPlugin(ScrollTrigger)
+
+
+
 export default function Main() {
+    const el = useRef()
+
+    useLayoutEffect(() => {
+        const ctx = gsap.context(() => {
+            gsap.fromTo('.main-starter', {
+                x: -300, opacity: 0, duration: .9, ease: 'power1', scrollTrigger: {
+                    trigger: '.left-delivery',
+                    start: 'top 50%'
+                }
+            }, {
+                x: 0,
+                opacity: 1
+            })
+            gsap.from('.right-delivery', {
+                x: 300, opacity: 0, duration: .9, ease: 'power1', 
+                scrollTrigger: {
+                    trigger: '.right-delivery',
+                    start: 'top 35%'
+                }
+            })
+        }, el.current)
+    }, [])
     return (
         <main>
             <div className="main-starter mt-[20px]">

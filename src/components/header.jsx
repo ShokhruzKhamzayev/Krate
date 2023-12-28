@@ -7,9 +7,12 @@ import calendar from '../assets/calendar.svg'
 import bars from '../assets/Hamburger.svg'
 import { UserButton, auth } from '@clerk/nextjs'
 
+
+
 export default async function Header() {
     const { userId } = await auth()
     const isAuth = !!userId
+    
     return (
         <header className='flex justify-between items-center my-3 border-2 border-[#282828] rounded-xl'>
             <div className="logo border-r border-[#282828] px-[16px] py-[10px] md:w-1/5 md:px-0 md:flex md:justify-center md:items-center md:py-[30px]">
@@ -39,10 +42,10 @@ export default async function Header() {
                 </div>
                 <div className="bottom-panel hidden md:flex md:justify-between md:items-center md:border-t border-[#282828] py-3">
                     <Link className='w-1/2 text-center border-r border-[#282828] flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/blog'}>
-                        <Image src={pencil} alt='icons'/>
+                        <Image src={pencil} alt='icons' />
                         Blog</Link>
                     <Link className='w-1/2 text-center flex justify-center items-center gap-1 text-[14px] text-[#BDBDBD]' href={'/contact'}>
-                        <Image src={calendar} alt='icons'/>
+                        <Image src={calendar} alt='icons' />
                         Get in touch</Link>
                 </div>
             </div>

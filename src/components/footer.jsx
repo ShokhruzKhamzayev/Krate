@@ -36,7 +36,7 @@ export default function Footer() {
                             <Link href={'/contact'} className='text-[14px] font-[600] '>Contact</Link>
                         </nav>
                         <div className="contact-gmail w-full md:w-1/2 flex justify-center items-center md:border-l border-[#282828] border-y md:border-y-0">
-                            <a href="#" className='text-[28px] font-[600] py-[16px]'>hello@clonify.io</a>
+                            <a href="https://mail.google.com/" className='text-[28px] font-[600] py-[16px]'>hello@clonify.io</a>
                         </div>
                     </div>
                     <div className="bottom-panel flex items-center flex-col justify-center md:flex-row">
@@ -45,16 +45,16 @@ export default function Footer() {
                             <h3>Blog</h3>
                         </Link>
                         <div className="links-tree flex justify-center items-center gap-[16px] py-[16px] border-b md:border-b-0 w-full md:border-x border-[#282828] md:w-1/3">
-                            <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
+                            <a href="https://www.facebook.com/" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
                                 <Image src={fb} alt='facebook' />
                             </a>
-                            <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
+                            <a href="https://www.instagram.com/" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
                                 <Image src={insta} alt='instagram' />
                             </a>
-                            <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
+                            <a href="https://twitter.com/" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
                                 <Image src={tw} alt='twitter' />
                             </a>
-                            <a href="#" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
+                            <a href="https://mail.google.com/" className='bg-[#282828] px-[9px] py-[9px] rounded-[50%]'>
                                 <Image src={gm} alt='gmail' />
                             </a>
                         </div>
