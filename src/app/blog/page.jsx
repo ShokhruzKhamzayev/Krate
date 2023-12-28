@@ -10,9 +10,11 @@ import blog_five from '../../assets/work-two-lap.png'
 import blog_six from '../../assets/blog-six.png'
 import blog_seven from '../../assets/blog-seven.png'
 import blog_eight from '../../assets/blog-eight.png'
+import { metadata } from '../layout'
 
 
 export default function page() {
+    metadata.title = 'Blogs | Shokhruz'
     return (
         <div className='custom-container'>
             <Header />

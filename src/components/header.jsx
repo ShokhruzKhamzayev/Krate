@@ -4,7 +4,6 @@ import React from 'react'
 import logo from '../assets/Branding.png'
 import pencil from '../assets/dit.svg'
 import calendar from '../assets/calendar.svg'
-import bars from '../assets/Hamburger.svg'
 import { UserButton, auth } from '@clerk/nextjs'
 
 

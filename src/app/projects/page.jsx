@@ -6,8 +6,10 @@ import work_one_lap from '../../assets/work-one-lap.png'
 import work_two_lap from '../../assets/work-two-lap.png'
 import work_three_lap from '../../assets/work-three-lap.png'
 import arrow_top_right from '../../assets/arrow-up-right.svg'
-
+import {metadata} from '../layout'
+ 
 export default function page() {
+  metadata.title = 'Projects | Shokhruz'
   return (
     <div className='custom-container'>
       <Header />

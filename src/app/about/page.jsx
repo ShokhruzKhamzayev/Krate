@@ -7,8 +7,11 @@ import achiv_content from '../../assets/achiv_content.png'
 import ava from '../../assets/ava.png'
 import logo_quote from '../../assets/logo-quote.png'
 import MembersOfTeam from '@/components/memberTeam'
+import { metadata } from '../layout'
+
 
 export default function page() {
+    metadata.title = 'About Page | Shokhruz'
     return (
         <div className='custom-container'>
             <Header />

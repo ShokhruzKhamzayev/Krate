@@ -4,8 +4,11 @@ import React from 'react'
 import contact_content from '../../assets/contact-content.png'
 import Image from 'next/image'
 import { ContactUs } from '@/components/contactEmail'
+import { metadata } from '../layout'
+
 
 export default function page() {
+    metadata.title = 'Contact Page | Shokhruz'
     return (
         <div className='custom-container'>
             <Header />

@@ -14,8 +14,11 @@ import member_nine from '../../assets/team-member-nine.png'
 import member_ten from '../../assets/team-m-ten.png'
 import member_eleven from '../../assets/team-m-eleven.png'
 import member_twelve from '../../assets/team-m-twelve.png'
+import { metadata } from '../layout'
+
 
 export default function page() {
+    metadata.title = 'Team Members | Shokhruz'
     return (
         <div className='custom-container'>
             <Header />
