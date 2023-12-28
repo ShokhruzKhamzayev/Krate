@@ -109,7 +109,7 @@ export default function ServiceWork() {
                   </div>
               </div>
               <div className="for-all-works md:flex justify-center items-center gap-3 border-2 border-[#282828] py-[4px] rounded-2xl hidden">
-                  <Link href={'/'}>View all work
+                  <Link href={'/projects'}>View all work
                   </Link>
                   <Image src={arrow_right_up} alt='arrow icon' />
               </div>
